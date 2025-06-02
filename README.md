@@ -57,14 +57,13 @@ A React + TypeScript application that integrates with the GitHub API to allow us
     - React Query for data fetching and caching
     - GitHub REST API v3
 
-### Folder Structure
+### 🧪 Tests
 
- /src
-  /components     # Reusable React components
-  /hooks          # Custom hooks (if any)
-  /services       # API calls (e.g., github.ts)
-  App.tsx         # Main application component
-  index.tsx       # Entry point
+This app uses [React Testing Library](https://testing-library.com/) and [Jest](https://jestjs.io/) for unit and integration testing.
+
+Run tests:
+
+npm test
 
 ### Error handling
 
